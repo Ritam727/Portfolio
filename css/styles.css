@@ -1,0 +1,135 @@
+/* Elements */
+body {
+    margin: 0;
+    font-family: 'Montserrat', cursive;
+    color: rgb(120, 120, 120);
+}
+
+h1 {
+    font-family: 'Fuggles', cursive;
+    padding: 20px;
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    color: #2082a8;
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    margin-bottom: 1%;
+    color: rgb(50, 100, 150);
+    text-align: center;
+}
+
+p {
+    padding-top: 40px;
+    font-size: 1.2rem;
+}
+
+hr {
+    border-top: 10px dotted rgb(200, 200, 200);
+    width: 10%;
+    margin: 7% auto;
+}
+
+tr :hover {
+    transform: scale(1.1);
+}
+
+/* Classes */
+.cloud-top {
+    position: absolute;
+    top: 50px;
+    right: 25%;
+}
+
+.cloud-bottom {
+    position: absolute;
+    bottom: 300px;
+    left: 20%;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+.skills {
+    text-align: left;
+    background-color: #bae8fa;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.skill-col {
+    padding: 40px;
+}
+
+.small-table-col {
+    width: 200px;
+    text-align: center;
+}
+
+.large-table-col {
+    width: 200px;
+    text-align: center;
+    color: gold;
+}
+
+.intro {
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.button-link, .button-link:hover, .button-link:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* IDs */
+#title {
+    position: relative;
+    background-color: #bae8fa;
+    color: #2082a8;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#about {
+    padding-top: 100px;
+}
+
+#contact {
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+    .skills h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 999px) {
+    .profile-pic {
+        width: 30%;
+    }
+}
+
+@media (max-width: 599px) {
+    .profile-pic {
+        width: 40%;
+    }
+}
