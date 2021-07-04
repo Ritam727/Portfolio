@@ -37,10 +37,6 @@ hr {
     margin: 7% auto;
 }
 
-tr :hover {
-    transform: scale(1.1);
-}
-
 /* Classes */
 .cloud-top {
     position: absolute;
@@ -136,6 +132,14 @@ tr :hover {
 }
 
 @media (max-width: 599px) {
+    p {
+        font-size: 1.5rem;
+    }
+
+    tr {
+        font-size: 1.5rem;
+    }
+
     .profile-pic {
         width: 40%;
     }
