@@ -18,6 +18,11 @@ h2 {
     font-size: 1.8rem;
 }
 
+#title h2 {
+    text-align: right;
+    padding-right: 40%;
+}
+
 h3 {
     font-family: 'Shadows Into Light', cursive;
     font-size: 3rem;
@@ -111,10 +116,25 @@ hr {
     padding-bottom: 5%;
 }
 
+#flex {
+    text-align: right;
+}
+
+#cursor {
+    border: solid 1px #2082a8;
+    animation-name: blinking-cursor;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
 /* Media Queries */
 @media (max-width: 999px) {
     .profile-pic {
         width: 30%;
+    }
+
+    #title h2 {
+        padding-right: 35%;
     }
 }
 
@@ -128,6 +148,10 @@ hr {
     .mountain-image {
         width: 500px;
         padding-top: 70px;
+    }
+
+    #title h2 {
+        padding-right: 30%;
     }
 }
 
@@ -148,4 +172,17 @@ hr {
         width: 400px;
         padding-top: 100px;
     }
+
+    #title h2 {
+        padding-right: 25%;
+    }
+}
+
+/* Animations */
+@keyframes blinking-cursor {
+    0%  {opacity: 1.0;}
+    25% {opacity: 0.5;}
+    50% {opacity: 0.0;}
+    75% {opacity: 0.5;}
+    100% {opacity: 1.0;}
 }
