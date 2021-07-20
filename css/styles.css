@@ -123,6 +123,7 @@ hr {
 #cursor {
     border: solid 1px #2082a8;
     animation-name: blinking-cursor;
+    background-color: #2082a8;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
 }
